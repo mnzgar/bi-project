@@ -1,2 +1,4 @@
 .idea
-data/raw
+data/codes
+data/prev_database/raw
+data/prev_database/raw_csv
