@@ -32,11 +32,6 @@ CREATE TABLE importacion_2019(
     provincia_domicilio_fiscal VARCHAR(2)
 );
 
---COPY importacion_2019
---FROM '/docker-entrypoint-initdb.d/raw_csv/2019/1-en.csv'
---DELIMITER ';'
---CSV HEADER;
-
 CREATE TABLE importacion_2020(
     flujo VARCHAR(1),
     ano VARCHAR(2),
@@ -224,14 +219,28 @@ FROM '/docker-entrypoint-initdb.d/codes/pais.csv'
 DELIMITER ','
 CSV HEADER;
 
--- Crear tabla para provincias
-CREATE TABLE provincias(
+-- Crear tabla para provincia
+CREATE TABLE provincia(
     code CHAR(2) PRIMARY KEY,
     prov_name TEXT NOT NULL,
     caut_name TEXT NOT NULL
 );
 
-COPY provincias
+COPY provincia
 FROM '/docker-entrypoint-initdb.d/codes/provincia.csv'
+DELIMITER ','
+CSV HEADER;
+
+-- Crear tabla para producto
+CREATE TABLE producto(
+    nm_code VARCHAR(10) PRIMARY KEY,
+    ncomb TEXT,
+    cuci_code VARCHAR(10),
+    cuci TEXT,
+    sector TEXT
+);
+
+COPY producto
+FROM '/docker-entrypoint-initdb.d/codes/producto.csv'
 DELIMITER ','
 CSV HEADER;
