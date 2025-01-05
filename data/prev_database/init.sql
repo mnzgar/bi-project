@@ -199,8 +199,8 @@ CREATE TABLE importacion_2024(
 
 -- Crear tabla para los modos de transporte
 CREATE TABLE modo_transporte(
-    code INT PRIMARY KEY,
-    name TEXT NOT NULL
+    codigo INT PRIMARY KEY,
+    descripcion TEXT NOT NULL
 );
 
 COPY modo_transporte
@@ -210,8 +210,8 @@ CSV HEADER;
 
 -- Crear tabla para los países
 CREATE TABLE pais(
-    code CHAR(2) PRIMARY KEY,
-    name TEXT NOT NULL
+    codigo CHAR(2) PRIMARY KEY,
+    pais TEXT NOT NULL
 );
 
 COPY pais
@@ -221,9 +221,8 @@ CSV HEADER;
 
 -- Crear tabla para provincia
 CREATE TABLE provincia(
-    code CHAR(2) PRIMARY KEY,
-    prov_name TEXT NOT NULL,
-    caut_name TEXT NOT NULL
+    codigo CHAR(2) PRIMARY KEY,
+    provincia TEXT NOT NULL
 );
 
 COPY provincia
