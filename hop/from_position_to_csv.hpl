@@ -177,7 +177,7 @@
     <send_true_to>Text file output</send_true_to>
     <attributes/>
     <GUI>
-      <xloc>944</xloc>
+      <xloc>800</xloc>
       <yloc>512</yloc>
     </GUI>
   </transform>
@@ -262,7 +262,7 @@
     <send_true_to>Text file output</send_true_to>
     <attributes/>
     <GUI>
-      <xloc>944</xloc>
+      <xloc>800</xloc>
       <yloc>416</yloc>
     </GUI>
   </transform>
@@ -379,7 +379,7 @@
     <send_true_to>Text file output</send_true_to>
     <attributes/>
     <GUI>
-      <xloc>944</xloc>
+      <xloc>800</xloc>
       <yloc>224</yloc>
     </GUI>
   </transform>
@@ -576,7 +576,7 @@
     <send_true_to>Text file output</send_true_to>
     <attributes/>
     <GUI>
-      <xloc>944</xloc>
+      <xloc>800</xloc>
       <yloc>320</yloc>
     </GUI>
   </transform>
@@ -660,7 +660,7 @@
     <send_true_to>Text file output</send_true_to>
     <attributes/>
     <GUI>
-      <xloc>944</xloc>
+      <xloc>800</xloc>
       <yloc>608</yloc>
     </GUI>
   </transform>
@@ -1081,7 +1081,7 @@
     <send_true_to>Text file output</send_true_to>
     <attributes/>
     <GUI>
-      <xloc>944</xloc>
+      <xloc>800</xloc>
       <yloc>112</yloc>
     </GUI>
   </transform>
@@ -1117,7 +1117,7 @@
     <send_true_to>Filter Asian Countries rows</send_true_to>
     <attributes/>
     <GUI>
-      <xloc>752</xloc>
+      <xloc>608</xloc>
       <yloc>224</yloc>
     </GUI>
   </transform>
@@ -1152,7 +1152,7 @@
     </fields>
     <attributes/>
     <GUI>
-      <xloc>464</xloc>
+      <xloc>320</xloc>
       <yloc>224</yloc>
     </GUI>
   </transform>
@@ -1684,7 +1684,7 @@
     <sizeFieldName/>
     <attributes/>
     <GUI>
-      <xloc>592</xloc>
+      <xloc>448</xloc>
       <yloc>224</yloc>
     </GUI>
   </transform>
@@ -2216,7 +2216,7 @@
     <sizeFieldName/>
     <attributes/>
     <GUI>
-      <xloc>592</xloc>
+      <xloc>448</xloc>
       <yloc>112</yloc>
     </GUI>
   </transform>
@@ -2625,7 +2625,7 @@
     </fields>
     <attributes/>
     <GUI>
-      <xloc>1168</xloc>
+      <xloc>1024</xloc>
       <yloc>224</yloc>
     </GUI>
   </transform>

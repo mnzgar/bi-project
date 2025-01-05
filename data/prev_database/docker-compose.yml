@@ -2,13 +2,13 @@ version: "3.9"
 services:
   postgres_bi:
     image: postgres:latest
-    container_name: postgres_bi
+    container_name: postgres_bi_raw
     environment:
       POSTGRES_USER: bi_user
       POSTGRES_PASSWORD: bi_password
       POSTGRES_DB: bi_project_raw
     ports:
-      - "5432:5432"
+      - "5438:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql

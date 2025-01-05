@@ -99,7 +99,7 @@
         <name>short_filename</name>
       </argument>
     </arguments>
-    <connection>DEV bi_project_raw</connection>
+    <connection>bi_project_raw</connection>
     <execute_each_row>Y</execute_each_row>
     <quoteString>N</quoteString>
     <replace_variables>Y</replace_variables>
@@ -131,7 +131,7 @@ CSV HEADER;</sql>
         <name>short_filename</name>
       </argument>
     </arguments>
-    <connection>DEV bi_project_raw</connection>
+    <connection>bi_project_raw</connection>
     <execute_each_row>Y</execute_each_row>
     <quoteString>N</quoteString>
     <replace_variables>Y</replace_variables>
@@ -163,7 +163,7 @@ CSV HEADER;</sql>
         <name>short_filename</name>
       </argument>
     </arguments>
-    <connection>DEV bi_project_raw</connection>
+    <connection>bi_project_raw</connection>
     <execute_each_row>Y</execute_each_row>
     <quoteString>N</quoteString>
     <replace_variables>Y</replace_variables>
@@ -195,7 +195,7 @@ CSV HEADER;</sql>
         <name>short_filename</name>
       </argument>
     </arguments>
-    <connection>DEV bi_project_raw</connection>
+    <connection>bi_project_raw</connection>
     <execute_each_row>Y</execute_each_row>
     <quoteString>N</quoteString>
     <replace_variables>Y</replace_variables>
@@ -227,7 +227,7 @@ CSV HEADER;</sql>
         <name>short_filename</name>
       </argument>
     </arguments>
-    <connection>DEV bi_project_raw</connection>
+    <connection>bi_project_raw</connection>
     <execute_each_row>Y</execute_each_row>
     <quoteString>N</quoteString>
     <replace_variables>Y</replace_variables>
@@ -259,7 +259,7 @@ CSV HEADER;</sql>
         <name>short_filename</name>
       </argument>
     </arguments>
-    <connection>DEV bi_project_raw</connection>
+    <connection>bi_project_raw</connection>
     <execute_each_row>Y</execute_each_row>
     <quoteString>N</quoteString>
     <replace_variables>Y</replace_variables>

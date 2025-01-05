@@ -1,13 +1,13 @@
 {
   "rdbms": {
     "POSTGRESQL": {
-      "databaseName": "bi_project_raw",
+      "databaseName": "bi_project",
       "pluginId": "POSTGRESQL",
       "accessType": 0,
-      "hostname": "localhost",
+      "hostname": "10.6.129.182",
       "password": "Encrypted 2be98afc86ac59bbbbb18bd63c99dbdde",
       "pluginName": "PostgreSQL",
-      "port": "5438",
+      "port": "5432",
       "attributes": {
         "SUPPORTS_TIMESTAMP_DATA_TYPE": "Y",
         "QUOTE_ALL_FIELDS": "N",
@@ -22,5 +22,5 @@
       "username": "bi_user"
     }
   },
-  "name": "bi_project_raw"
+  "name": "bi_project"
 }
