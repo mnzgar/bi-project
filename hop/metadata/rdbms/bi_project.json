@@ -4,7 +4,7 @@
       "databaseName": "bi_project",
       "pluginId": "POSTGRESQL",
       "accessType": 0,
-      "hostname": "10.6.129.182",
+      "hostname": "10.6.130.160",
       "password": "Encrypted 2be98afc86ac59bbbbb18bd63c99dbdde",
       "pluginName": "PostgreSQL",
       "port": "5432",

@@ -32,7 +32,7 @@
     </hop>
     <hop>
       <from>Select values 2</from>
-      <to>Filter producto null rows</to>
+      <to>Filter registros rows</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -66,7 +66,7 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Filter producto null rows</from>
+      <from>Filter registros rows</from>
       <to>Dummy (do nothing)</to>
       <enabled>Y</enabled>
     </hop>
@@ -116,7 +116,7 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Filter producto null rows</from>
+      <from>Filter registros rows</from>
       <to>Text file output</to>
       <enabled>Y</enabled>
     </hop>
@@ -280,7 +280,7 @@
     </GUI>
   </transform>
   <transform>
-    <name>Filter producto null rows</name>
+    <name>Filter registros rows</name>
     <type>FilterRows</type>
     <description/>
     <distribute>Y</distribute>
@@ -293,7 +293,56 @@
     <compare>
       <condition>
         <conditions>
+          <condition>
+            <conditions>
 </conditions>
+            <function>IS NOT NULL</function>
+            <leftvalue>producto</leftvalue>
+            <negated>N</negated>
+            <operator>-</operator>
+          </condition>
+          <condition>
+            <conditions>
+</conditions>
+            <function>=</function>
+            <leftvalue>producto</leftvalue>
+            <negated>Y</negated>
+            <operator>AND</operator>
+            <value>
+              <isnull>N</isnull>
+              <length>-1</length>
+              <mask/>
+              <name>constant</name>
+              <precision>-1</precision>
+              <text>Semimanufacturas no químicas</text>
+              <type>String</type>
+            </value>
+          </condition>
+          <condition>
+            <conditions>
+</conditions>
+            <function>=</function>
+            <leftvalue>producto</leftvalue>
+            <negated>Y</negated>
+            <operator>AND</operator>
+            <value>
+              <isnull>N</isnull>
+              <length>-1</length>
+              <mask/>
+              <name>constant</name>
+              <precision>-1</precision>
+              <text>Manufacturas de consumo</text>
+              <type>String</type>
+            </value>
+          </condition>
+          <condition>
+            <conditions>
+</conditions>
+            <function>IS NOT NULL</function>
+            <negated>N</negated>
+            <operator>AND</operator>
+          </condition>
+        </conditions>
         <function>IS NOT NULL</function>
         <leftvalue>producto</leftvalue>
         <negated>N</negated>
